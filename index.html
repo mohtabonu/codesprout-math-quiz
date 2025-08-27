@@ -20,56 +20,6 @@
   </head>
   <body>
     
-    <!-- game page -->
-    <div class="game-container" style="display: none;" >
-      <div id="gameArea">
-        <div class="game-header">
-          <div class="score-box">
-            <div class="header-label">Score</div>
-            <div class="header-value" id="score">0</div>
-          </div>
-          <div class="question-box">
-            <div class="header-label">Question</div>
-            <div class="header-value">
-              <span id="currentQuestion">1</span>/10
-            </div>
-          </div>
-          <div class="timer-box" id="timerBox">
-            <div class="header-label">Time</div>
-            <div class="header-value" id="timer">30</div>
-          </div>
-        </div>
-
-        <div class="progress-container">
-          <div class="progress-bar" id="progressBar"></div>
-        </div>
-
-        <div class="question-area">
-          <div class="question" id="question">5 + 3 = ?</div>
-          <div class="question-hint">Enter your answer</div>
-          <input
-            type="number"
-            class="answer-input"
-            id="answerInput"
-            placeholder="?"
-          />
-          <br />
-          <button class="submit-btn">Check Answer</button>
-        </div>
-
-        <div class="feedback" id="feedback"></div>
-      </div>
-
-      <div class="game-over" id="gameOver">
-        <h1 style="color: #4a5568; font-size: 2.5rem; margin-bottom: 20px">
-          🎉 Game Over!
-        </h1>
-        <div class="final-score" id="finalScore">0</div>
-        <div class="score-message" id="scoreMessage">Great result!</div>
-        <button class="restart-btn">🔄 Play Again</button>
-        <button class="home-btn">🏠 Home</button>
-      </div>
-    </div>
   </body>
   <script type="module" src="./scripts/index.js"></script>
 </html>
